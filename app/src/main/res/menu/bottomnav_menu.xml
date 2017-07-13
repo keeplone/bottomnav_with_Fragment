@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navAlarm"
+        android:icon="@drawable/ic_alarm_black_24dp"
+        android:title="Alarm"/>
+
+    <item
+        android:id="@+id/navNotifi"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"/>
+    <item
+        android:id="@+id/navStar"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Star"/>
+
+</menu>
