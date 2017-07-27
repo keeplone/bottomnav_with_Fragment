@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.zensea.bottomnav_with_fragment.OneFragment">
+    tools:context="com.example.zensea.bottomnav_with_fragment.TwoFragment">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv4"
+        android:id="@+id/rvH"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:clipToPadding="false"
         android:scrollbars="vertical">
 

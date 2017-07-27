@@ -11,7 +11,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Fragment fragment;
+    //private Fragment fragment;
     private FragmentManager fragmentManager;
 
     @Override
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_nav);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
-        final OneFragment fragment = new OneFragment();
+        final HomeFragment fragment = new HomeFragment();
         fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.main_container, fragment);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment = null;
                 switch (item.getItemId()){
                     case R.id.navHome:
-                        fragment = new OneFragment();
+                        fragment = new HomeFragment();
                         break;
                     case R.id.navAlarm:
                         fragment = new TwoFragment();
